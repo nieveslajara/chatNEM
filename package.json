@@ -1,0 +1,19 @@
+{
+  "name": "nemchat",
+  "version": "1.0.0",
+  "description": "Real time chat application using Node, Express and Mongo and Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Nieves Lajara",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "mongoose": "^5.5.0",
+    "nodemon": "^1.18.11",
+    "socket.io": "^2.2.0"
+  }
+}
